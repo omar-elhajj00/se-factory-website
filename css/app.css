@@ -1,3 +1,4 @@
+
 * {
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
@@ -8,6 +9,7 @@
     box-sizing: border-box;
 }
 
+/* header section started  */
 header{
     display: flex;
     align-items: center;
@@ -55,7 +57,9 @@ header{
     font-weight: 600;
     color:white;
 }
+/* header section ends */
 
+/* home section starts */
 .home {
     min-height: 100vh;
     background: linear-gradient(rgba(29, 29, 29, 0.582), rgba(0, 0, 0, 0.63)), url(../images/IMG_9780.JPG) no-repeat;
@@ -116,7 +120,7 @@ header{
     font-weight: 600;
 }
 
-
+/* home section ends */
 
 
 
