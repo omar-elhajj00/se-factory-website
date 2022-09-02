@@ -23,6 +23,17 @@ header{
     overflow: hidden;
 }
 
+.green-btn1 {
+    padding: .6rem 1rem;
+    border-radius: .4rem;
+    background-color: #1ceb1c;
+    width: 8rem;
+    border: none;
+    font-size: .8rem;
+    color: white;
+    font-weight: 600;
+}
+
 .logo img{
     max-height:12vh;
     width:auto;
@@ -41,9 +52,10 @@ header{
 }
 
 .navbar ul li a{
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
     color:white;
+
 }
 
 .home {
@@ -93,11 +105,11 @@ header{
     line-height: 160%;
 }
 
-.home .box-container button{
-    padding: .6rem .9rem;
+.green-btn {
+    padding: .6rem 1rem;
     border-radius: .4rem;
     background-color: #1ceb1c;
-    width:7rem;
+    width:9rem;
     border: none;
     margin-left: 5rem;
     font-size: 1rem;
