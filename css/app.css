@@ -48,7 +48,7 @@ header{
 
 .home {
     min-height: 100vh;
-    background: linear-gradient(rgba(53, 53, 53, 0.459), rgba(0, 0, 0, 0.363)), url(../images/IMG_9780.JPG) no-repeat;
+    background: linear-gradient(rgba(29, 29, 29, 0.582), rgba(0, 0, 0, 0.63)), url(../images/IMG_9780.JPG) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -58,10 +58,10 @@ header{
     bottom:6rem;
     display: flex;
     align-items: center;
-
 }
 
 .home .box-container{
+    margin-top: 12rem;
     display: flex;
     flex-direction: column;
 }
@@ -86,11 +86,25 @@ header{
 }
 
 .home .box-container .box h3{
-    
     font-size: 1.5rem ;
     font-weight: 400;
     color: white;
     margin-top: 1rem;
+    line-height: 160%;
+}
+
+.home .box-container button{
+    padding: .6rem .9rem;
+    border-radius: .4rem;
+    background-color: #1ceb1c;
+    width:7rem;
+    border: none;
+    margin-left: 5rem;
+    font-size: 1rem;
+    color:white;
+    margin-top: 2rem;
+    font-weight: 600;
+
 }
 
 
