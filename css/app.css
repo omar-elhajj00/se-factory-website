@@ -15,12 +15,9 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
-    /* z-index: 1000; */
-    /* transition: .2s; */
     max-height: 15vh;
     top:3rem;
     padding:1rem 2rem;
-    /* background-color: rgba(255, 255, 255, 0); */
     overflow: hidden;
 }
 
@@ -81,9 +78,6 @@ header{
 }
 
 .home .box-container .box{
-    /* display: flex;
-    flex-direction: colum;
-    justify-content: flex-start; */
     max-width: 30rem;
     margin-left: 5rem;
 }
